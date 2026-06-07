@@ -8,21 +8,17 @@
   ],
   "mcp": {
     "obsidian": {
-      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "command": "mcpvault.cmd",
       "args": [
-        "C:\\Users\\PC\\AppData\\Roaming\\npm\\node_modules\\@bitbonsai\\mcpvault\\dist\\server.js",
         "G:\\我的雲端硬碟\\secondbrain"
       ]
     },
     "firebase": {
-      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "command": "npx.cmd",
       "args": [
-        "C:\\Users\\PC\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\bin\\firebase.js",
-        "mcp",
-        "--dir",
-        "C:\\Users\\PC\\firebase-codex-config",
-        "--only",
-        "core,firestore"
+        "-y",
+        "firebase-tools@latest",
+        "mcp"
       ]
     }
   }
