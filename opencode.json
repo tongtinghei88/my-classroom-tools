@@ -1,0 +1,30 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "Read AGENTS.md before making changes.",
+    "Use tools/<tool-name>/ for each classroom tool.",
+    "Keep Obsidian work notes updated at G:\\我的雲端硬碟\\secondbrain\\Projects\\my-classroom-tools\\工作筆記.md.",
+    "Do not commit secrets, local assistant state, or credentials."
+  ],
+  "mcp": {
+    "obsidian": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\PC\\AppData\\Roaming\\npm\\node_modules\\@bitbonsai\\mcpvault\\dist\\server.js",
+        "G:\\我的雲端硬碟\\secondbrain"
+      ]
+    },
+    "firebase": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\PC\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\bin\\firebase.js",
+        "mcp",
+        "--dir",
+        "C:\\Users\\PC\\firebase-codex-config",
+        "--only",
+        "core,firestore"
+      ]
+    }
+  }
+}
+
